@@ -47,4 +47,5 @@ product_ids.each do
     category_id: category_ids[array_number]
   )
   array_number += 1
+  end
 end
