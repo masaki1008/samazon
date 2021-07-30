@@ -30,6 +30,8 @@ scope :sort_list, -> {
   }
 }
 
+ scope :in_cart_product_names, -> (cart_item_ids) { where(id: cart_item_ids).pluck(:name) }
+
   def reviews_new
     reviews.new
   end
