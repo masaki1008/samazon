@@ -33,6 +33,7 @@ major_category_names.each do |major_category_name|
       )
     end
   end
+end
 
 product_ids = [*1..30]
 category_ids = [*1..18,*1..12]
@@ -47,5 +48,4 @@ product_ids.each do
     category_id: category_ids[array_number]
   )
   array_number += 1
-  end
 end
